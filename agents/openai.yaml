@@ -1,0 +1,6 @@
+interface:
+  display_name: "任务闭环与交接"
+  short_description: "核对多步骤任务的完成证据，明确剩余事项、接手责任与结束条件"
+  default_prompt: "使用 $task-closure-handoff 推进当前任务，核验完成条件并交代后续责任。"
+policy:
+  allow_implicit_invocation: true
